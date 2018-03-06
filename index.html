@@ -17,7 +17,7 @@
 
 <body ng-app="ui.bootstrap.demo">
   <header ng-controller="DropdownController as vm">
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default" style="color:white;background-color:black;padding:0px;">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -27,29 +27,29 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-          <a class="navbar-brand" href="#" style="font-size:20px; font-family:Buxton Sketch;color:black;">My Portfolio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          <a class="navbar-brand" href="#" style="font-size:20px; font-family:Buxton Sketch;color:white;">My Portfolio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" uib-collapse="vm.isCollapsed" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="#" onclick="toggle_visibility('first');" style="font-family: Buxton Sketch;font-size:20px;padding-left:100px;color:black;text-align:left;">Home<span class="sr-only">(current)</span></a></li>
-            <li><a href="#" onclick="toggle_visibility('second');" style="font-family: Buxton Sketch;font-size:20px;padding-left:100px;color:black;text-align:left;">About Me</a></li>
+            <li><a href="#" onclick="toggle_visibility('first');" style="font-family: Buxton Sketch;font-size:20px;padding-left:100px;color:white;text-align:left;">Home<span class="sr-only">(current)</span></a></li>
+            <li><a href="#" onclick="toggle_visibility('second');" style="font-family: Buxton Sketch;font-size:20px;padding-left:100px;color:white;text-align:left;">About Me</a></li>
             <li class="dropdown" uib-dropdown>
-              <a href="#" onclick="toggle_visibility('third');" class="dropdown-toggle" uib-dropdown-toggle data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-family: Buxton Sketch;font-size:20px;padding-left:100px;color:black;text-align:left;">Projects<span class="caret"></span></a>
-              <ul class="dropdown-menu" uib-dropdown-menu style="font-family: Buxton Sketch;font-size:20px;padding:0px;text-align:center;">
-                <li><a href="https://ypoojitha.github.io/" target="_blank">Restaurant Website</a></li>
-                <li><a href="https://ypoojitha.github.io/budgety/" target="_blank">Budgety Website</a></li>
-                <li><a>Apple Website(WIP)</a></li>
+              <a href="#" onclick="toggle_visibility('third');" class="dropdown-toggle" uib-dropdown-toggle data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-family: Buxton Sketch;font-size:20px;padding-left:100px;color:white;text-align:left;">Projects<span class="caret"></span></a>
+              <ul class="dropdown-menu" uib-dropdown-menu style="font-family: Buxton Sketch;font-size:20px;padding:0px;text-align:center;color:white;background-color:black;">
+                <li><a href="https://ypoojitha.github.io/" target="_blank" style="color:white;background-color:black;">Restaurant Website</a></li>
+                <li><a href="https://ypoojitha.github.io/budgety/" target="_blank" style="color:white;background-color:black;">Budgety Website</a></li>
+                <li><a style="color:white;background-color:black;">Apple Website(WIP)</a></li>
               </ul>
             </li>
-            <li><a href="https://rawgit.com/Ypoojitha/Ypoojitha.resume.github.io/master/resume.pdf" target="_blank" style="font-family: Buxton Sketch;font-size:20px;padding-left:100px;color:black;text-align:left;">Resume</a></li>
+            <li><a href="https://rawgit.com/Ypoojitha/Ypoojitha.resume.github.io/master/resume.pdf" target="_blank" style="font-family: Buxton Sketch;font-size:20px;padding-left:100px;color:white;text-align:left;">Resume</a></li>
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
             <li class="email">poojitha0412@gmail.com</li><BR>
         	  <li class="mobile">(408)-387-3175</li>
-              </ul>
+          </ul>
             </li>
           </ul>
         </div>
